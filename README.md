@@ -8,3 +8,6 @@
 * testpub testsub 으로 ROS2 정상작동 확인
 * turtlesim_node 실행 후 teleop 으로 움직임 확인
 * RQT를 사용하여 turtlesim_node 움직임 제어
+* ROS2 python package 생성
+    * class 생성 후 패키지 내의 main으로만 동작하도록 객체지향적 설계
+
