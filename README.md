@@ -11,3 +11,10 @@
 * ROS2 python package 생성
     * class 생성 후 패키지 내의 main으로만 동작하도록 객체지향적 설계
 
+- - -
+# 2023_1_3 진행 상황
+- - -
+* QoS(Quality of Service, 서비스 품질)을 이용한 ROS2 설계
+* ros2 run 명령어를 통해 package 실행 확인
+* Saas 연습  google slide : https://docs.google.com/presentation/d/1jwksntFzRzFbpEtHJCzOahT5loVWIPO-PtTMm4BnxtY/edit?usp=sharing
+* turtlesim의 이동경로를 변경하는 package을 통해 움직임 제어 확인

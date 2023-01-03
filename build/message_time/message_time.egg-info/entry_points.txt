@@ -1,0 +1,5 @@
+[console_scripts]
+mp = message_time.message_pub:main
+ms = message_time.message_sub:main
+tp = message_time.time_pub:main
+
