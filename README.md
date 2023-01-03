@@ -18,3 +18,10 @@
 * ros2 run 명령어를 통해 package 실행 확인
 * Saas 연습  google slide : https://docs.google.com/presentation/d/1jwksntFzRzFbpEtHJCzOahT5loVWIPO-PtTMm4BnxtY/edit?usp=sharing
 * turtlesim의 이동경로를 변경하는 package을 통해 움직임 제어 확인
+* 두 종류의 turtlesim에 각각의 namespace를 추가하여 개별로 움직임 제어
+    * ros2 run packagename command --ros-args -r __ns:=/namespacename
+* 한 스크린 내에 두 개 이상의 turtlesim 스폰 후 개별로 움직임 제어
+    * ros2 service call /spawn turtlesim/srv/Spawn "x: 5.5, y: 7.0, theha: 1.5, name: 'turtle2'}"
+* turtlesim의 색상, 펜 두께 변경하기
+    * ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 100, g: 50, b: 200, width: 5}"
+* opencv의 기초 운용방법에 대해 학습
