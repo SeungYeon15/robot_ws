@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/x-optimus/robot_ws/build/class_test_interface/rosidl_generator_py/class_test_interface/libclass_test_interface__python.so" "TARGETS" "class_test_interface__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

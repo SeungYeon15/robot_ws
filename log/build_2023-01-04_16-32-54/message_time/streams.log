@@ -1,0 +1,19 @@
+[0.975s] Invoking command in '/home/x-optimus/robot_ws/build/message_time': PYTHONPATH=/home/x-optimus/robot_ws/build/message_time/prefix_override:/home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/message_time/build --no-deps install_data
+[1.291s] running develop
+[1.484s] running egg_info
+[1.485s] writing message_time.egg-info/PKG-INFO
+[1.486s] writing dependency_links to message_time.egg-info/dependency_links.txt
+[1.486s] writing entry points to message_time.egg-info/entry_points.txt
+[1.492s] writing requirements to message_time.egg-info/requires.txt
+[1.492s] writing top-level names to message_time.egg-info/top_level.txt
+[1.532s] reading manifest file 'message_time.egg-info/SOURCES.txt'
+[1.533s] writing manifest file 'message_time.egg-info/SOURCES.txt'
+[1.579s] running build_ext
+[1.580s] Creating /home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages/message-time.egg-link (link to .)
+[1.581s] Installing mp script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+[1.582s] Installing ms script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+[1.582s] Installing tp script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+[1.583s] 
+[1.584s] Installed /home/x-optimus/robot_ws/build/message_time
+[1.584s] running install_data
+[1.613s] Invoked command in '/home/x-optimus/robot_ws/build/message_time' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/message_time/prefix_override:/home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/message_time/build --no-deps install_data

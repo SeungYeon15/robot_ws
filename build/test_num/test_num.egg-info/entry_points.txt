@@ -1,0 +1,5 @@
+[console_scripts]
+fas = test_num.fibonacci_action_server:mainfac = test_num.fibonacci_action_client:main
+msc = test_num.test_service_client:main
+mss1 = test_num.test_service_ser1:main
+

@@ -25,3 +25,12 @@
 * turtlesim의 색상, 펜 두께 변경하기
     * ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 100, g: 50, b: 200, width: 5}"
 * opencv의 기초 운용방법에 대해 학습
+
+- - -
+# 2023_1_4 진행 상황
+- - -
+* Interface 설계
+    * 사용자 인터페이스 생성
+    * ros2 pkg create --build-type ament_cmake class_test_interface
+
+* 사용자 인터페이스를 활용한 service 생성

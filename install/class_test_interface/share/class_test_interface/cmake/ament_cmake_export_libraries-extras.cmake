@@ -1,0 +1,1 @@
+/home/x-optimus/robot_ws/build/class_test_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

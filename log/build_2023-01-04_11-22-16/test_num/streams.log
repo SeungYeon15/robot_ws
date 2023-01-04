@@ -1,0 +1,17 @@
+[0.851s] Invoking command in '/home/x-optimus/robot_ws/build/test_num': PYTHONPATH=/home/x-optimus/robot_ws/build/test_num/prefix_override:/home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/test_num/build --no-deps install_data
+[1.167s] running develop
+[1.354s] running egg_info
+[1.355s] writing test_num.egg-info/PKG-INFO
+[1.355s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.356s] writing entry points to test_num.egg-info/entry_points.txt
+[1.356s] writing requirements to test_num.egg-info/requires.txt
+[1.356s] writing top-level names to test_num.egg-info/top_level.txt
+[1.401s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.402s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.447s] running build_ext
+[1.448s] Creating /home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.449s] Installing mss script to /home/x-optimus/robot_ws/install/test_num/lib/test_num
+[1.449s] 
+[1.450s] Installed /home/x-optimus/robot_ws/build/test_num
+[1.450s] running install_data
+[1.475s] Invoked command in '/home/x-optimus/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/test_num/prefix_override:/home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/test_num/build --no-deps install_data

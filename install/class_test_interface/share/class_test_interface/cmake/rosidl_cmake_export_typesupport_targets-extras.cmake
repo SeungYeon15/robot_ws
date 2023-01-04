@@ -1,0 +1,1 @@
+/home/x-optimus/robot_ws/build/class_test_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

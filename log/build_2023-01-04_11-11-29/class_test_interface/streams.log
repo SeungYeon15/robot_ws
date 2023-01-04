@@ -1,0 +1,220 @@
+[0.047s] Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface
+[0.072s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.106s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.113s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.362s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.371s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.860s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.056s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.058s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.106s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.107s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.108s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.144s] -- Found PythonExtra: .so  
+[1.206s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.230s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.234s] -- Added test 'lint_cmake' to check CMake code style
+[1.235s] -- Added test 'xmllint' to check XML markup files
+[1.245s] -- Configuring done
+[1.308s] -- Generating done
+[1.314s] -- Build files have been written to: /home/x-optimus/robot_ws/build/class_test_interface
+[1.325s] Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '0': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface
+[1.325s] Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/x-optimus/robot_ws/build/class_test_interface -- -j2 -l2
+[1.376s] [35m[1mScanning dependencies of target class_test_interface__cpp[0m
+[1.389s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.409s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.740s] [  4%] Built target class_test_interface__cpp
+[2.768s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.072s] [35m[1mScanning dependencies of target class_test_interface__rosidl_generator_c[0m
+[3.184s] [  8%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_generator_c.dir/rosidl_generator_c/class_test_interface/msg/detail/intfloat__functions.c.o[0m
+[3.396s] [ 10%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_generator_c.dir/rosidl_generator_c/class_test_interface/srv/detail/add_three_ints__functions.c.o[0m
+[3.652s] [ 12%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_generator_c.dir/rosidl_generator_c/class_test_interface/srv/detail/minus_three_ints__functions.c.o[0m
+[3.820s] [ 14%] [32m[1mLinking C shared library libclass_test_interface__rosidl_generator_c.so[0m
+[3.923s] [ 14%] Built target class_test_interface__rosidl_generator_c
+[3.939s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_introspection_cpp[0m
+[3.976s] [ 17%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interface/msg/detail/intfloat__type_support.cpp.o[0m
+[4.022s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.166s] [ 21%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interface/srv/detail/add_three_ints__type_support.cpp.o[0m
+[5.716s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_fastrtps_cpp[0m
+[5.832s] [ 23%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interface/msg/detail/dds_fastrtps/intfloat__type_support.cpp.o[0m
+[6.292s] [ 25%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/class_test_interface/srv/detail/minus_three_ints__type_support.cpp.o[0m
+[7.345s] [ 27%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interface/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[7.426s] [ 29%] [32m[1mLinking CXX shared library libclass_test_interface__rosidl_typesupport_introspection_cpp.so[0m
+[7.594s] [ 29%] Built target class_test_interface__rosidl_typesupport_introspection_cpp
+[7.652s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.882s] [ 34%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/class_test_interface/srv/detail/dds_fastrtps/minus_three_ints__type_support.cpp.o[0m
+[9.060s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_introspection_c[0m
+[9.120s] [ 36%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interface/msg/detail/intfloat__type_support.c.o[0m
+[9.244s] [ 38%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interface/srv/detail/add_three_ints__type_support.c.o[0m
+[9.405s] [ 40%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/class_test_interface/srv/detail/minus_three_ints__type_support.c.o[0m
+[9.524s] [ 42%] [32m[1mLinking C shared library libclass_test_interface__rosidl_typesupport_introspection_c.so[0m
+[9.679s] [ 42%] Built target class_test_interface__rosidl_typesupport_introspection_c
+[9.724s] [ 44%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.183s] [ 46%] [32m[1mLinking CXX shared library libclass_test_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.557s] [ 46%] Built target class_test_interface__rosidl_typesupport_fastrtps_cpp
+[10.614s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.736s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_cpp[0m
+[10.785s] [ 51%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interface/msg/intfloat__type_support.cpp.o[0m
+[11.729s] [ 53%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interface/srv/add_three_ints__type_support.cpp.o[0m
+[11.776s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_c[0m
+[11.849s] [ 55%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interface/msg/intfloat__type_support.cpp.o[0m
+[11.984s] [ 57%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interface/srv/add_three_ints__type_support.cpp.o[0m
+[12.150s] [ 59%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/class_test_interface/srv/minus_three_ints__type_support.cpp.o[0m
+[12.311s] [ 61%] [32m[1mLinking CXX shared library libclass_test_interface__rosidl_typesupport_c.so[0m
+[12.483s] [ 61%] Built target class_test_interface__rosidl_typesupport_c
+[12.532s] [ 63%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.580s] [ 65%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/class_test_interface/srv/minus_three_ints__type_support.cpp.o[0m
+[13.691s] [ 68%] [32m[1mLinking CXX shared library libclass_test_interface__rosidl_typesupport_cpp.so[0m
+[13.838s] [ 68%] Built target class_test_interface__rosidl_typesupport_cpp
+[13.970s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_fastrtps_c[0m
+[14.002s] [ 70%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interface/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[14.024s] [ 72%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interface/msg/detail/intfloat__type_support_c.cpp.o[0m
+[14.955s] [ 74%] [32mBuilding CXX object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/class_test_interface/srv/detail/minus_three_ints__type_support_c.cpp.o[0m
+[15.404s] [ 76%] [32m[1mLinking CXX shared library libclass_test_interface__rosidl_typesupport_fastrtps_c.so[0m
+[15.500s] [ 76%] Built target class_test_interface__rosidl_typesupport_fastrtps_c
+[15.512s] [35m[1mScanning dependencies of target class_test_interface[0m
+[15.524s] [ 76%] Built target class_test_interface
+[15.536s] [35m[1mScanning dependencies of target class_test_interface__py[0m
+[15.548s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.627s] [ 78%] Built target class_test_interface__py
+[16.639s] [35m[1mScanning dependencies of target class_test_interface__python[0m
+[16.701s] [ 80%] [32mBuilding C object CMakeFiles/class_test_interface__python.dir/rosidl_generator_py/class_test_interface/msg/_intfloat_s.c.o[0m
+[16.823s] [ 82%] [32mBuilding C object CMakeFiles/class_test_interface__python.dir/rosidl_generator_py/class_test_interface/srv/_add_three_ints_s.c.o[0m
+[16.935s] [ 85%] [32mBuilding C object CMakeFiles/class_test_interface__python.dir/rosidl_generator_py/class_test_interface/srv/_minus_three_ints_s.c.o[0m
+[17.046s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/class_test_interface/libclass_test_interface__python.so[0m
+[17.150s] [ 87%] Built target class_test_interface__python
+[17.169s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_c__pyext[0m
+[17.199s] [ 89%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/class_test_interface/_class_test_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[17.325s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/class_test_interface/class_test_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.382s] [ 91%] Built target class_test_interface__rosidl_typesupport_c__pyext
+[17.399s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_introspection_c__pyext[0m
+[17.432s] [ 93%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/class_test_interface/_class_test_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.606s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/class_test_interface/class_test_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.664s] [ 95%] Built target class_test_interface__rosidl_typesupport_introspection_c__pyext
+[17.678s] [35m[1mScanning dependencies of target class_test_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[17.707s] [ 97%] [32mBuilding C object CMakeFiles/class_test_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/class_test_interface/_class_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.824s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/class_test_interface/class_test_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.912s] [100%] Built target class_test_interface__rosidl_typesupport_fastrtps_c__pyext
+[17.945s] Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '0': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/x-optimus/robot_ws/build/class_test_interface -- -j2 -l2
+[18.074s] Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/x-optimus/robot_ws/build/class_test_interface
+[18.100s] -- Install configuration: ""
+[18.101s] -- Execute custom install script
+[18.102s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/ament_index/resource_index/rosidl_interfaces/class_test_interface
+[18.117s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__functions.h
+[18.129s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__struct.h
+[18.140s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__type_support.h
+[18.152s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/intfloat.h
+[18.164s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/rosidl_generator_c__visibility_control.h
+[18.175s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/add_three_ints.h
+[18.187s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__functions.h
+[18.199s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__struct.h
+[18.221s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__type_support.h
+[18.233s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__functions.h
+[18.245s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__struct.h
+[18.257s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__type_support.h
+[18.268s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/minus_three_ints.h
+[18.280s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/library_path.sh
+[18.296s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/library_path.dsv
+[18.313s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h
+[18.328s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.345s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[18.357s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h
+[18.369s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_fastrtps_c.so
+[18.391s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp
+[18.412s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.420s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[18.436s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[18.452s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_fastrtps_cpp.so
+[18.464s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__rosidl_typesupport_introspection_c.h
+[18.476s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.488s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[18.500s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h
+[18.512s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__builder.hpp
+[18.523s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__struct.hpp
+[18.535s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__traits.hpp
+[18.555s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/intfloat.hpp
+[18.564s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/add_three_ints.hpp
+[18.575s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__builder.hpp
+[18.587s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__struct.hpp
+[18.599s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__traits.hpp
+[18.613s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__builder.hpp
+[18.624s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__struct.hpp
+[18.635s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__traits.hpp
+[18.647s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/minus_three_ints.hpp
+[18.659s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp
+[18.671s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[18.682s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/include/class_test_interface/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[18.697s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/pythonpath.sh
+[18.714s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/pythonpath.dsv
+[18.732s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/__init__.py
+[18.746s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/msg/__init__.py
+[18.762s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/msg/_intfloat.py
+[18.778s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/srv/__init__.py
+[18.794s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/srv/_add_three_ints.py
+[18.805s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/srv/_minus_three_ints.py
+[18.817s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/class_test_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[18.828s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/class_test_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[18.839s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/class_test_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[18.856s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__python.so
+[18.872s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/msg/Intfloat.idl
+[18.888s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/AddThreeInts.idl
+[18.903s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/MinusThreeInts.idl
+[18.917s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/msg/Intfloat.msg
+[18.931s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/AddThreeInts.srv
+[18.946s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/AddThreeInts_Request.msg
+[18.958s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/AddThreeInts_Response.msg
+[18.971s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/MinusThreeInts.srv
+[18.987s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/MinusThreeInts_Request.msg
+[18.998s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/srv/MinusThreeInts_Response.msg
+[19.015s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/ament_index/resource_index/package_run_dependencies/class_test_interface
+[19.037s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/ament_index/resource_index/parent_prefix_path/class_test_interface
+[19.048s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/ament_prefix_path.sh
+[19.067s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/ament_prefix_path.dsv
+[19.082s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/path.sh
+[19.095s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/environment/path.dsv
+[19.108s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/local_setup.bash
+[19.121s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/local_setup.sh
+[19.133s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/local_setup.zsh
+[19.147s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/local_setup.dsv
+[19.158s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.dsv
+[19.170s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/ament_index/resource_index/packages/class_test_interface
+[19.181s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/rosidl_cmake-extras.cmake
+[19.193s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.204s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[19.215s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/ament_cmake_export_targets-extras.cmake
+[19.226s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.237s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.248s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.259s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interfaceConfig.cmake
+[19.270s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interfaceConfig-version.cmake
+[19.281s] -- Symlinking: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.xml
+[19.292s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_generator_c.so
+[19.293s] -- Set runtime path of "/home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_generator_c.so" to ""
+[19.294s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_introspection_c.so
+[19.295s] -- Set runtime path of "/home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_introspection_c.so" to ""
+[19.295s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_c.so
+[19.296s] -- Set runtime path of "/home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_c.so" to ""
+[19.297s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_introspection_cpp.so
+[19.298s] -- Set runtime path of "/home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[19.299s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_cpp.so
+[19.300s] -- Set runtime path of "/home/x-optimus/robot_ws/install/class_test_interface/lib/libclass_test_interface__rosidl_typesupport_cpp.so" to ""
+[19.341s] Compiling '/home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages/class_test_interface/__init__.py'...
+[19.346s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_generator_cExport.cmake
+[19.347s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_generator_cExport-noconfig.cmake
+[19.348s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_introspection_cExport.cmake
+[19.349s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.349s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_cExport.cmake
+[19.350s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_cExport-noconfig.cmake
+[19.351s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_generator_cppExport.cmake
+[19.351s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_introspection_cppExport.cmake
+[19.352s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.353s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_cppExport.cmake
+[19.354s] -- Installing: /home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/cmake/class_test_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[19.362s] Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '0': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/x-optimus/robot_ws/build/class_test_interface

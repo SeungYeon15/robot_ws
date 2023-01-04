@@ -1,0 +1,3 @@
+/home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter/class_test_interface:msg/Intfloat.idl
+/home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter/class_test_interface:srv/AddThreeInts.idl
+/home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter/class_test_interface:srv/MinusThreeInts.idl

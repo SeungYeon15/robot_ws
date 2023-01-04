@@ -1,0 +1,15 @@
+[0.048s] Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface
+[0.069s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.105s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.361s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.370s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.378s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] CMake Error at CMakeLists.txt:22 (rosidl_generate_interface):
+[0.638s]   Unknown CMake command "rosidl_generate_interface".
+[0.638s] 
+[0.638s] 
+[0.640s] -- Configuring incomplete, errors occurred!
+[0.640s] See also "/home/x-optimus/robot_ws/build/class_test_interface/CMakeFiles/CMakeOutput.log".
+[0.650s] Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '1': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface

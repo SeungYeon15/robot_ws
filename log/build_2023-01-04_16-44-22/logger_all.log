@@ -1,0 +1,401 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.250s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0c6d338550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0c6d338550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0c6d338a90>)
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/x-optimus/robot_ws'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/images) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/class_test_interface) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/class_test_interface' with type 'ros.ament_cmake' and name 'class_test_interface'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m_pubsub' with type 'ros.ament_python' and name 'm_pubsub'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/message_time) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message_time' with type 'ros.ament_python' and name 'message_time'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_turtle_pkg) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_turtle_pkg' with type 'ros.ament_python' and name 'move_turtle_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_num) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_num' with type 'ros.ament_python' and name 'test_num'
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/x-optimus/robot_ws/install
+[0.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'class_test_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'class_test_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/x-optimus/robot_ws/build/class_test_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/x-optimus/robot_ws/install/class_test_interface', 'merge_install': False, 'path': '/home/x-optimus/robot_ws/src/class_test_interface', 'symlink_install': True, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'm_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/x-optimus/robot_ws/build/m_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/x-optimus/robot_ws/install/m_pubsub', 'merge_install': False, 'path': '/home/x-optimus/robot_ws/src/m_pubsub', 'symlink_install': True, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'message_time' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'message_time' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/x-optimus/robot_ws/build/message_time', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/x-optimus/robot_ws/install/message_time', 'merge_install': False, 'path': '/home/x-optimus/robot_ws/src/message_time', 'symlink_install': True, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'move_turtle_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/x-optimus/robot_ws/build/move_turtle_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/x-optimus/robot_ws/install/move_turtle_pkg', 'merge_install': False, 'path': '/home/x-optimus/robot_ws/src/move_turtle_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'test_num' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/x-optimus/robot_ws/build/test_num', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/x-optimus/robot_ws/install/test_num', 'merge_install': False, 'path': '/home/x-optimus/robot_ws/src/test_num', 'symlink_install': True, 'test_result_base': None}
+[0.478s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/x-optimus/robot_ws/src/class_test_interface' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/x-optimus/robot_ws/src/class_test_interface'
+[0.502s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/x-optimus/robot_ws/src/m_pubsub' with build type 'ament_python'
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'ament_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/x-optimus/robot_ws/install/test_num:/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/x-optimus/robot_ws/build/class_test_interface -- -j2 -l2
+[1.331s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/x-optimus/robot_ws/src/m_pubsub'
+[1.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/x-optimus/robot_ws/install/test_num:/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/x-optimus/robot_ws/build/class_test_interface -- -j2 -l2
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/x-optimus/robot_ws/install/test_num:/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/x-optimus/robot_ws/build/class_test_interface
+[1.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(class_test_interface)
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/x-optimus/robot_ws/install/test_num:/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/x-optimus/robot_ws/build/class_test_interface
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface' for CMake module files
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface' for CMake config files
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'cmake_prefix_path')
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.ps1'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.dsv'
+[1.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.sh'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib'
+[1.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'ld_library_path_lib')
+[1.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.ps1'
+[1.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.dsv'
+[1.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.sh'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/bin'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib/pkgconfig/class_test_interface.pc'
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages'
+[1.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'pythonpath')
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.dsv'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/bin'
+[1.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.ps1'
+[1.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.dsv'
+[1.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.sh'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.bash'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.zsh'
+[1.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/class_test_interface/share/colcon-core/packages/class_test_interface)
+[2.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/m_pubsub': PYTHONPATH=/home/x-optimus/robot_ws/build/m_pubsub/prefix_override:/home/x-optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/m_pubsub/build --no-deps install_data
+[2.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(class_test_interface)
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface' for CMake module files
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface' for CMake config files
+[2.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'cmake_prefix_path')
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.dsv'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/cmake_prefix_path.sh'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib'
+[2.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'ld_library_path_lib')
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/ld_library_path_lib.sh'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/bin'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib/pkgconfig/class_test_interface.pc'
+[2.155s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/lib/python3.8/site-packages'
+[2.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('class_test_interface', 'pythonpath')
+[2.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.dsv'
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/hook/pythonpath.sh'
+[2.161s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/class_test_interface/bin'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.dsv'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.sh'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.bash'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/class_test_interface/share/class_test_interface/package.zsh'
+[2.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/class_test_interface/share/colcon-core/packages/class_test_interface)
+[2.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/x-optimus/robot_ws/src/message_time' with build type 'ament_python'
+[2.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_time', 'ament_prefix_path')
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/ament_prefix_path.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/ament_prefix_path.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/ament_prefix_path.sh'
+[2.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.596s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/x-optimus/robot_ws/src/message_time'
+[2.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'pythonpath_develop')
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.ps1'
+[2.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/m_pubsub/prefix_override:/home/x-optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/m_pubsub/build --no-deps install_data
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.dsv'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.sh'
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub' for CMake module files
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub' for CMake config files
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub/lib'
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub/bin'
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub/lib/pkgconfig/m_pubsub.pc'
+[2.934s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub/lib/python3.8/site-packages'
+[2.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'pythonpath')
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/pythonpath.ps1'
+[2.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/pythonpath.dsv'
+[2.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/hook/pythonpath.sh'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/m_pubsub/bin'
+[2.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m_pubsub)
+[2.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/package.ps1'
+[2.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/package.dsv'
+[2.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/package.sh'
+[2.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/package.bash'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/m_pubsub/share/m_pubsub/package.zsh'
+[2.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/m_pubsub/share/colcon-core/packages/m_pubsub)
+[2.950s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/x-optimus/robot_ws/src/move_turtle_pkg' with build type 'ament_python'
+[2.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'ament_prefix_path')
+[2.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.ps1'
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.dsv'
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.sh'
+[2.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/x-optimus/robot_ws/src/move_turtle_pkg'
+[3.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/message_time': PYTHONPATH=/home/x-optimus/robot_ws/build/message_time/prefix_override:/home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/message_time/build --no-deps install_data
+[4.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/move_turtle_pkg': PYTHONPATH=/home/x-optimus/robot_ws/build/move_turtle_pkg/prefix_override:/home/x-optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[4.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_time', 'pythonpath_develop')
+[4.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/message_time' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/message_time/prefix_override:/home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/message_time/build --no-deps install_data
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/message_time/share/message_time/hook/pythonpath_develop.ps1'
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/build/message_time/share/message_time/hook/pythonpath_develop.dsv'
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/message_time/share/message_time/hook/pythonpath_develop.sh'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time' for CMake module files
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time' for CMake config files
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time/lib'
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time/bin'
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time/lib/pkgconfig/message_time.pc'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages'
+[4.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_time', 'pythonpath')
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/pythonpath.ps1'
+[4.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/pythonpath.dsv'
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/message_time/share/message_time/hook/pythonpath.sh'
+[4.217s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/message_time/bin'
+[4.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_time)
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/message_time/share/message_time/package.ps1'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/message_time/share/message_time/package.dsv'
+[4.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/message_time/share/message_time/package.sh'
+[4.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/message_time/share/message_time/package.bash'
+[4.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/message_time/share/message_time/package.zsh'
+[4.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/message_time/share/colcon-core/packages/message_time)
+[4.227s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/x-optimus/robot_ws/src/test_num' with build type 'ament_python'
+[4.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'ament_prefix_path')
+[4.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/ament_prefix_path.ps1'
+[4.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/ament_prefix_path.dsv'
+[4.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/ament_prefix_path.sh'
+[4.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.683s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/x-optimus/robot_ws/src/test_num'
+[4.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'pythonpath_develop')
+[4.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.ps1'
+[4.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/move_turtle_pkg/prefix_override:/home/x-optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/move_turtle_pkg/build --no-deps install_data
+[4.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.dsv'
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.sh'
+[4.873s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg' for CMake module files
+[4.874s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg' for CMake config files
+[4.874s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg/lib'
+[4.874s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg/bin'
+[4.874s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg/lib/pkgconfig/move_turtle_pkg.pc'
+[4.875s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages'
+[4.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'pythonpath')
+[4.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.ps1'
+[4.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.dsv'
+[4.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.sh'
+[4.881s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/move_turtle_pkg/bin'
+[4.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_turtle_pkg)
+[4.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/package.ps1'
+[4.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/package.dsv'
+[4.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/package.sh'
+[4.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/package.bash'
+[4.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/move_turtle_pkg/share/move_turtle_pkg/package.zsh'
+[4.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/move_turtle_pkg/share/colcon-core/packages/move_turtle_pkg)
+[5.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/x-optimus/robot_ws/build/test_num': PYTHONPATH=/home/x-optimus/robot_ws/build/test_num/prefix_override:/home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/test_num/build --no-deps install_data
+[5.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'pythonpath_develop')
+[5.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/test_num/share/test_num/hook/pythonpath_develop.ps1'
+[5.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/x-optimus/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/x-optimus/robot_ws/build/test_num/prefix_override:/home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/x-optimus/robot_ws/build/test_num/build --no-deps install_data
+[5.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/build/test_num/share/test_num/hook/pythonpath_develop.dsv'
+[5.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/build/test_num/share/test_num/hook/pythonpath_develop.sh'
+[5.890s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num' for CMake module files
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num' for CMake config files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num/lib'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num/bin'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num/lib/pkgconfig/test_num.pc'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num/lib/python3.8/site-packages'
+[5.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'pythonpath')
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/pythonpath.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/pythonpath.dsv'
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/x-optimus/robot_ws/install/test_num/share/test_num/hook/pythonpath.sh'
+[5.898s] Level 1:colcon.colcon_core.environment:checking '/home/x-optimus/robot_ws/install/test_num/bin'
+[5.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_num)
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/test_num/share/test_num/package.ps1'
+[5.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/x-optimus/robot_ws/install/test_num/share/test_num/package.dsv'
+[5.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/test_num/share/test_num/package.sh'
+[5.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/test_num/share/test_num/package.bash'
+[5.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/x-optimus/robot_ws/install/test_num/share/test_num/package.zsh'
+[5.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/x-optimus/robot_ws/install/test_num/share/colcon-core/packages/test_num)
+[5.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.908s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.922s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.922s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.923s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.938s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/x-optimus/robot_ws/install/local_setup.ps1'
+[5.944s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/x-optimus/robot_ws/install/_local_setup_util_ps1.py'
+[5.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/x-optimus/robot_ws/install/setup.ps1'
+[5.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/x-optimus/robot_ws/install/local_setup.sh'
+[5.955s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/x-optimus/robot_ws/install/_local_setup_util_sh.py'
+[5.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/x-optimus/robot_ws/install/setup.sh'
+[5.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/x-optimus/robot_ws/install/local_setup.bash'
+[5.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/x-optimus/robot_ws/install/setup.bash'
+[5.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/x-optimus/robot_ws/install/local_setup.zsh'
+[5.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/x-optimus/robot_ws/install/setup.zsh'

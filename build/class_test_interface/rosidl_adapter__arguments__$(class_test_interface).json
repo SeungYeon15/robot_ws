@@ -1,0 +1,8 @@
+{
+  "package_name": "class_test_interface",
+  "non_idl_tuples": [
+    "/home/x-optimus/robot_ws/src/class_test_interface:msg/Intfloat.msg",
+    "/home/x-optimus/robot_ws/src/class_test_interface:srv/AddThreeInts.srv",
+    "/home/x-optimus/robot_ws/src/class_test_interface:srv/MinusThreeInts.srv"
+  ]
+}

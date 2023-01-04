@@ -1,0 +1,54 @@
+[0.053s] Invoking command in '/home/x-optimus/robot_ws/build/class_test_interface': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface
+[0.383s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.386s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.386s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.388s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.171s] -- Configuring incomplete, errors occurred!
+[1.171s] See also "/home/x-optimus/robot_ws/build/class_test_interface/CMakeFiles/CMakeOutput.log".
+[1.171s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.171s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.171s]   class_test_interface --arguments-file
+[1.171s]   /home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter__arguments__$(PROJECT_NAME).json
+[1.171s]   --output-dir
+[1.171s]   /home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter/class_test_interface
+[1.171s]   --output-file
+[1.171s]   /home/x-optimus/robot_ws/build/class_test_interface/rosidl_adapter/$(PROJECT_NAME).idls)
+[1.171s]   returned error code 1:
+[1.172s] 
+[1.172s]   Error processing 'int intnum' of 'class_test_interface/Intfloat': ''int' is
+[1.172s]   an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[1.172s] 
+[1.172s]   Traceback (most recent call last):
+[1.172s] 
+[1.172s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.172s]       return _run_code(code, main_globals, None,
+[1.172s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.172s]       exec(code, run_globals)
+[1.172s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.172s]       sys.exit(main())
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.173s]       abs_idl_file = convert_to_idl(
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.173s]       return convert_msg_to_idl(
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.173s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[1.173s]       Type(type_string, context_package_name=pkg_name),
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[1.173s]       super(Type, self).__init__(
+[1.173s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[1.173s]       raise InvalidResourceName(
+[1.174s] 
+[1.174s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[1.174s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.174s] 
+[1.174s] Call Stack (most recent call first):
+[1.174s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.190s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[1.190s] 
+[1.190s] 
+[1.201s] Invoked command in '/home/x-optimus/robot_ws/build/class_test_interface' returned '1': CMAKE_PREFIX_PATH=/home/x-optimus/robot_ws/install/move_turtle_pkg:/home/x-optimus/robot_ws/install/message_time:/home/x-optimus/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake /home/x-optimus/robot_ws/src/class_test_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x-optimus/robot_ws/install/class_test_interface

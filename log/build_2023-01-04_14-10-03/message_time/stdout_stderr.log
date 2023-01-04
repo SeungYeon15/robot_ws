@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing message_time.egg-info/PKG-INFO
+writing dependency_links to message_time.egg-info/dependency_links.txt
+writing entry points to message_time.egg-info/entry_points.txt
+writing requirements to message_time.egg-info/requires.txt
+writing top-level names to message_time.egg-info/top_level.txt
+reading manifest file 'message_time.egg-info/SOURCES.txt'
+writing manifest file 'message_time.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/x-optimus/robot_ws/install/message_time/lib/python3.8/site-packages/message-time.egg-link (link to .)
+Installing mp script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+Installing ms script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+Installing tp script to /home/x-optimus/robot_ws/install/message_time/lib/message_time
+
+Installed /home/x-optimus/robot_ws/build/message_time
+running install_data
