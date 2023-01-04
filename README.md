@@ -34,3 +34,5 @@
     * ros2 pkg create --build-type ament_cmake class_test_interface
 
 * 사용자 인터페이스를 활용한 service 생성
+* action 기능을 활용하여 Fibonacci 수열 결과 출력
+

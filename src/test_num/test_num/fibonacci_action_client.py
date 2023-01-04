@@ -19,7 +19,7 @@ def main(args = None):
     rclpy.init(args=args)
     node = FibonacciActionClient()
     node.send_goal(25)
-    
+    rclpy.spin_until_future_complete(node, future)
     node.destroy_node()
     rclpy.shutdown()
 
